@@ -22,7 +22,7 @@ public class binarysearch{
 
         // Now if answer was not found, lets just look at the bright side, more specifically the left side
         if (arr[m]> target){
-            return search(arr, target, start, m -1 );
+            return search(arr, target, start, m -1);
         }
         return search(arr, target, m + 1, end);
 
