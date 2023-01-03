@@ -5,7 +5,7 @@ public class binarysearch{
         int arr[] = {36, 55, 32, 88, 42, 77, 10, 75, 89, 33};
         Arrays.sort(arr);
         // 10, 32, 33, 36, 42, 55, 75, 77, 88, 89 (sorted array)
-        int target = 77;
+        int target = 55;
         System.out.println(search(arr, target, 0, arr.length-1));
     }
 
